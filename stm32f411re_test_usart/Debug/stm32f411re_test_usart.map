@@ -1,0 +1,316 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/users/user/appdata/roaming/xpacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                              ./src/board.o (__aeabi_ui2f)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .group         0x0000000000000000        0xc ./src/board.o
+ .text          0x0000000000000000        0x0 ./src/board.o
+ .data          0x0000000000000000        0x0 ./src/board.o
+ .bss           0x0000000000000000        0x0 ./src/board.o
+ .text._baud_rate
+                0x0000000000000000       0x3c ./src/board.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .text          0x0000000000000000        0x0 ./src/main.o
+ .data          0x0000000000000000        0x0 ./src/main.o
+ .bss           0x0000000000000000        0x0 ./src/main.o
+ .debug_macro   0x0000000000000000      0xa54 ./src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./src/main.o
+ .debug_macro   0x0000000000000000       0x8e ./src/main.o
+ .debug_macro   0x0000000000000000       0x51 ./src/main.o
+ .debug_macro   0x0000000000000000      0x103 ./src/main.o
+ .debug_macro   0x0000000000000000       0x6a ./src/main.o
+ .debug_macro   0x0000000000000000      0x1df ./src/main.o
+ .debug_macro   0x0000000000000000       0xa0 ./src/main.o
+ .data          0x0000000000000000        0x0 ./src/startup.o
+ .bss           0x0000000000000000        0x0 ./src/startup.o
+ .text          0x0000000000000000      0x21c c:/users/user/appdata/roaming/xpacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/xpacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/xpacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x0000000000000000       0x4c c:/users/user/appdata/roaming/xpacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e c:/users/user/appdata/roaming/xpacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp\libgcc.a(_arm_addsubsf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000020000000 0x0000000000020000 xrw
+ROM              0x0000000008000000 0x0000000000080000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./src/board.o
+LOAD ./src/main.o
+LOAD ./src/startup.o
+                0x0000000000000100                HEAP_SIZE = 0x100
+                0x0000000020020000                PROVIDE (__main_stack_start = 0x20020000)
+                0x000000002001fb00                PROVIDE (_pvHeapStart = ((__main_stack_start - 0x400) - HEAP_SIZE))
+
+.isr_vector     0x0000000008000000      0x188
+                0x0000000008000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x188 ./src/startup.o
+                0x0000000008000000                __Vectors
+                0x0000000008000188                . = ALIGN (0x4)
+
+.text           0x0000000008000188      0x278
+                0x0000000008000188                . = ALIGN (0x4)
+ *(.text)
+ .text          0x0000000008000188       0x6c ./src/startup.o
+                0x0000000008000188                Reset_Handler
+                0x00000000080001b8                NMI_Handler
+                0x00000000080001bc                HardFault_Handler
+                0x00000000080001c0                MemManage_Handler
+                0x00000000080001c4                BusFault_Handler
+                0x00000000080001c8                UsageFault_Handler
+                0x00000000080001cc                DebugMon_Handler
+                0x00000000080001d0                Svc_Handler
+                0x00000000080001d4                PendSV_Handler
+                0x00000000080001d8                Default_IRQHandler
+ *(.text*)
+ .text.led_init
+                0x00000000080001f4       0x38 ./src/board.o
+                0x00000000080001f4                led_init
+ .text.led_toggle
+                0x000000000800022c       0x1c ./src/board.o
+                0x000000000800022c                led_toggle
+ .text.usart1_init
+                0x0000000008000248       0xbc ./src/board.o
+                0x0000000008000248                usart1_init
+ .text.usart1_send
+                0x0000000008000304       0x2a ./src/board.o
+                0x0000000008000304                usart1_send
+ *fill*         0x000000000800032e        0x2 
+ .text._usart1_send_char
+                0x0000000008000330       0x30 ./src/board.o
+                0x0000000008000330                _usart1_send_char
+ .text.usart1_recv
+                0x0000000008000360       0x24 ./src/board.o
+                0x0000000008000360                usart1_recv
+ .text.systick_init
+                0x0000000008000384       0x2c ./src/board.o
+                0x0000000008000384                systick_init
+ .text.systick_handler
+                0x00000000080003b0       0x18 ./src/board.o
+                0x00000000080003b0                systick_handler
+ .text.task     0x00000000080003c8       0x1c ./src/main.o
+                0x00000000080003c8                task
+ .text.main     0x00000000080003e4       0x1a ./src/main.o
+                0x00000000080003e4                main
+ *(.glue_7)
+ .glue_7        0x00000000080003fe        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000080003fe        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x0000000008000400                . = ALIGN (0x4)
+ *fill*         0x00000000080003fe        0x2 
+                0x0000000008000400                _etext = .
+
+.vfp11_veneer   0x0000000008000400        0x0
+ .vfp11_veneer  0x0000000008000400        0x0 linker stubs
+
+.v4_bx          0x0000000008000400        0x0
+ .v4_bx         0x0000000008000400        0x0 linker stubs
+
+.iplt           0x0000000008000400        0x0
+ .iplt          0x0000000008000400        0x0 ./src/board.o
+
+.rodata         0x0000000008000400       0x1c
+                0x0000000008000400                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x0000000008000400        0xb ./src/board.o
+ *fill*         0x000000000800040b        0x1 
+ .rodata        0x000000000800040c        0xe ./src/main.o
+ *(.rodata*)
+                0x000000000800041c                . = ALIGN (0x4)
+ *fill*         0x000000000800041a        0x2 
+
+.rel.dyn        0x000000000800041c        0x0
+ .rel.iplt      0x000000000800041c        0x0 ./src/board.o
+
+.ARM.extab      0x000000000800041c        0x0
+                0x000000000800041c                . = ALIGN (0x4)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000000000800041c                . = ALIGN (0x4)
+
+.ARM            0x000000000800041c        0x0
+                0x000000000800041c                . = ALIGN (0x4)
+                0x000000000800041c                __exidx_start = .
+ *(.ARM.exidx*)
+                0x000000000800041c                __exidx_end = .
+                0x000000000800041c                . = ALIGN (0x4)
+
+.preinit_array  0x000000000800041c        0x0
+                0x000000000800041c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+                0x000000000800041c                . = ALIGN (0x4)
+
+.init_array     0x000000000800041c        0x0
+                0x000000000800041c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                [!provide]                        PROVIDE (__init_array_end = .)
+                0x000000000800041c                . = ALIGN (0x4)
+
+.fini_array     0x000000000800041c        0x0
+                0x000000000800041c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x000000000800041c                . = ALIGN (0x4)
+                0x000000000800041c                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000        0x0 load address 0x000000000800041c
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data)
+ *(.data*)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _edata = .
+
+.igot.plt       0x0000000020000000        0x0 load address 0x000000000800041c
+ .igot.plt      0x0000000020000000        0x0 ./src/board.o
+                0x0000000020000000                . = ALIGN (0x4)
+
+.bss            0x0000000020000000        0x0 load address 0x000000000800041c
+                0x0000000020000000                _sbss = .
+                0x0000000020000000                __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ *(COMMON)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _ebss = .
+                0x0000000020000000                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x000000002001fb00      0x100
+                0x000000002001fb00                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x000000002001fc00                . = (. + HEAP_SIZE)
+ *fill*         0x000000002001fb00      0x100 
+                0x000000002001fc00                . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x2c
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x2e ./src/board.o
+ .ARM.attributes
+                0x000000000000002e       0x2e ./src/main.o
+ .ARM.attributes
+                0x000000000000005c       0x1c ./src/startup.o
+OUTPUT(stm32f411re_test_usart.elf elf32-littlearm)
+LOAD linker stubs
+LOAD c:/users/user/appdata/roaming/xpacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
+LOAD c:/users/user/appdata/roaming/xpacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
+LOAD c:/users/user/appdata/roaming/xpacks/@xpack-dev-tools/arm-none-eabi-gcc/10.2.1-1.1.2/.content/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp\libgcc.a
+
+.debug_info     0x0000000000000000      0x417
+ .debug_info    0x0000000000000000      0x331 ./src/board.o
+ .debug_info    0x0000000000000331       0xc0 ./src/main.o
+ .debug_info    0x00000000000003f1       0x26 ./src/startup.o
+
+.debug_abbrev   0x0000000000000000      0x1d5
+ .debug_abbrev  0x0000000000000000      0x13e ./src/board.o
+ .debug_abbrev  0x000000000000013e       0x83 ./src/main.o
+ .debug_abbrev  0x00000000000001c1       0x14 ./src/startup.o
+
+.debug_aranges  0x0000000000000000       0xa8
+ .debug_aranges
+                0x0000000000000000       0x60 ./src/board.o
+ .debug_aranges
+                0x0000000000000060       0x28 ./src/main.o
+ .debug_aranges
+                0x0000000000000088       0x20 ./src/startup.o
+
+.debug_ranges   0x0000000000000000       0x68
+ .debug_ranges  0x0000000000000000       0x50 ./src/board.o
+ .debug_ranges  0x0000000000000050       0x18 ./src/main.o
+
+.debug_macro    0x0000000000000000     0x1a6c
+ .debug_macro   0x0000000000000000      0x10d ./src/board.o
+ .debug_macro   0x000000000000010d      0xa54 ./src/board.o
+ .debug_macro   0x0000000000000b61       0x22 ./src/board.o
+ .debug_macro   0x0000000000000b83       0x8e ./src/board.o
+ .debug_macro   0x0000000000000c11       0x51 ./src/board.o
+ .debug_macro   0x0000000000000c62      0x103 ./src/board.o
+ .debug_macro   0x0000000000000d65       0x6a ./src/board.o
+ .debug_macro   0x0000000000000dcf      0x1df ./src/board.o
+ .debug_macro   0x0000000000000fae       0xa0 ./src/board.o
+ .debug_macro   0x000000000000104e       0x6a ./src/board.o
+ .debug_macro   0x00000000000010b8       0x18 ./src/board.o
+ .debug_macro   0x00000000000010d0       0x35 ./src/board.o
+ .debug_macro   0x0000000000001105       0x34 ./src/board.o
+ .debug_macro   0x0000000000001139      0x174 ./src/board.o
+ .debug_macro   0x00000000000012ad       0x16 ./src/board.o
+ .debug_macro   0x00000000000012c3       0x43 ./src/board.o
+ .debug_macro   0x0000000000001306       0x34 ./src/board.o
+ .debug_macro   0x000000000000133a       0x10 ./src/board.o
+ .debug_macro   0x000000000000134a       0x58 ./src/board.o
+ .debug_macro   0x00000000000013a2      0x182 ./src/board.o
+ .debug_macro   0x0000000000001524      0x333 ./src/board.o
+ .debug_macro   0x0000000000001857      0x1a9 ./src/board.o
+ .debug_macro   0x0000000000001a00       0x6c ./src/main.o
+
+.debug_line     0x0000000000000000      0x7a2
+ .debug_line    0x0000000000000000      0x46c ./src/board.o
+ .debug_line    0x000000000000046c      0x2ca ./src/main.o
+ .debug_line    0x0000000000000736       0x6c ./src/startup.o
+
+.debug_str      0x0000000000000000     0x70ce
+ .debug_str     0x0000000000000000     0x7092 ./src/board.o
+                                       0x7285 (size before relaxing)
+ .debug_str     0x0000000000007092       0x1d ./src/main.o
+                                       0x3e8c (size before relaxing)
+ .debug_str     0x00000000000070af       0x1f ./src/startup.o
+                                         0x5c (size before relaxing)
+
+.comment        0x0000000000000000       0x44
+ .comment       0x0000000000000000       0x44 ./src/board.o
+                                         0x45 (size before relaxing)
+ .comment       0x0000000000000044       0x45 ./src/main.o
+
+.debug_frame    0x0000000000000000      0x188
+ .debug_frame   0x0000000000000000      0x13c ./src/board.o
+ .debug_frame   0x000000000000013c       0x4c ./src/main.o
